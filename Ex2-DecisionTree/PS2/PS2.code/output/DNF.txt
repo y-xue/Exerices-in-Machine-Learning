@@ -1,0 +1,4 @@
+(numinjured < 2.0 ^ oppnuminjured < 2.0 ^ numinjured < 1.0 ^ numinjured < -2.0 ^ oppwinningpercent < 0.338 ^ winpercent < 0.469)
+ v (numinjured < 2.0 ^ oppnuminjured < 2.0 ^ numinjured < 1.0 ^ numinjured < -2.0 ^ oppwinningpercent >= 0.338)
+ v (numinjured < 2.0 ^ oppnuminjured < 2.0 ^ numinjured >= 1.0)
+ v (numinjured >= 2.0)

@@ -1,0 +1,17 @@
+numinjured
+| oppnuminjured
+| | numinjured
+| | | numinjured
+| | | | oppwinningpercent
+| | | | | winpercent
+| | | | | | 1
+| | | | | | 0
+| | | | | 1
+| | | | numinjured
+| | | | | numinjured
+| | | | | | 0
+| | | | | | 0
+| | | | | 0
+| | | 1
+| | 0
+| 1

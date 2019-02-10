@@ -1,0 +1,30 @@
+2016-04-12 15:48:55 weka.gui.GUIChooser main
+INFO: Logging started
+---Registering Weka Editors---
+Trying to add database driver (JDBC): jdbc.idbDriver - Error, not in CLASSPATH?
+2016-04-12 15:49:12 weka.gui.explorer.Explorer <init>
+INFO: Weka Explorer
+2016-04-12 15:49:12 weka.gui.explorer.Explorer <init>
+INFO: (c) 1999-2015 The University of Waikato, Hamilton, New Zealand
+2016-04-12 15:49:12 weka.gui.explorer.Explorer <init>
+INFO: web: http://www.cs.waikato.ac.nz/~ml/weka/
+2016-04-12 15:49:12 weka.gui.explorer.Explorer <init>
+INFO: Started on Tuesday, 12 April 2016
+2016-04-12 15:49:59 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Started weka.classifiers.rules.ZeroR
+2016-04-12 15:49:59 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Command:weka.classifiers.rules.ZeroR 
+2016-04-12 15:49:59 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Finished weka.classifiers.rules.ZeroR
+2016-04-12 15:50:29 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Started weka.classifiers.trees.J48
+2016-04-12 15:50:29 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Command:weka.classifiers.trees.J48 -C 0.25 -M 2
+2016-04-12 15:50:30 weka.gui.explorer.ClassifierPanel$16 run
+INFO: Finished weka.classifiers.trees.J48
+2016-04-12 15:51:13 weka.gui.explorer.ClassifierPanel saveClassifier
+INFO: Saved model (15:50:29 - trees.J48) to file 'PS1.model'
+2016-04-12 15:52:48 weka.gui.explorer.ClassifierPanel$35 run
+INFO: Re-evaluating classifier (15:50:29 - trees.J48) on test set
+2016-04-12 15:52:48 weka.gui.explorer.ClassifierPanel$35 run
+INFO: Finished re-evaluation

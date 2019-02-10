@@ -1,0 +1,3 @@
+(oppnuminjured < 3.0 ^ numinjured < 2.0 ^ oppnuminjured < 2.0 ^ numinjured = 0.0 ^ oppnuminjured < 1.0)
+ v (oppnuminjured < 3.0 ^ numinjured < 2.0 ^ oppnuminjured < 2.0 ^ numinjured = 1.0)
+ v (oppnuminjured < 3.0 ^ numinjured >= 2.0)

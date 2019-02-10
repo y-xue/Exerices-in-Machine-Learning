@@ -1,0 +1,24 @@
+1. Attributes appear to have outliers: fixed acidity, volatile acidity, citric acid, chlorides, free sulfur dioxide, total sulfur dioxide.
+
+2. 62.381%. Because ZeroR simply chooses the majority class, the accuracy means 62.381% of the data are in good quality.
+ZeroR can give a minimum performance that we can use to interprete the performance of other classifiers.
+
+3. The most informative single feature is 'alcohol', it's more likely to be in good quality with higher percentage of alcohol.
+
+4. 10-fold cross-validation is: breaking data into 10 sets of size n/10, training on 9 datasets and test on 1 and repeating 10 times and take a mean accuracy.
+The main reason is that 10-fold cross-validation separates the training data and testing data. This is more accurate on measuring the performance of classifier because it's less meaningful to test using the data that used for training.
+10-fold cross-validation is important because it has a good performance on measuring classifiers.
+
+5. "weka.classifiers.bayes.BayesNet -D -Q weka.classifiers.bayes.net.search.local.HillClimber -- -P 1 -S BAYES -E weka.classifiers.bayes.net.estimate.SimpleEstimator -- -A 0.5"
+81.164%
+
+6. I choose BayesNet classifiers and for estimator and searchAlgorithm, I choose SimpleEstimator and HillClimber. I use 10-fold cross-validation.
+
+7. I don't agree with this statement. Math can't solve everything. Many real problems are very complex that its hard to describe and solve with simple equations. Sometime we need taxonomy and building models or even learn from irregular phenomenon to help us make decisions.
+
+8. (1) +car_acc(B)-wine_acc(B): using NNge (nearest-neighbor) as classifier, with (numAttemptsOfGeneOption = 1) and (numFoldersMIOption = 1). On car dataset, NNge performed well--the accuracy is 93.95%, while on wine dataset, the accuracy is only 54.92%.
+(2) -car_acc(A)+wine_acc(A): using J48 (decision tree) as classifier, with (binarySplits = False), (confidenceFactor = 0.01), (debug = False), (minNumObj = 2), (numFolds = 3), (reducedErrorPruning = False), (saveInstanceData = False), (subtreeRaising = False), (unpruned = False) and (useLaplace = True). On car dataset, J48 performed not good--the accuracy is 82.01%, while on wine dataset, the accuracy is 84.709%.
+
+I tried many model parameters to get these results. The strategy is based on the difference between two datasets. Data in wine task is numbers, which is continuous. But data in car tesk is dicrete.
+
+9. For the car task, there are 4 classes: unacc, acc, good and vgood. For the win task, there are 2 classes: good and bad.
